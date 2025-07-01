@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.nav {
+    background-color: rgb(255, 246, 246);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right a {
+    margin: 0px 20px;
+    
+}
+
+#btn {
+    border-radius: 50px;
+    padding: 10px 5px;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#btn:hover{
+    color: orange;
+}
+
+.div1-title h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 31, 31);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.div1-title {
+    margin-top: 100px;
+}
+
+
+.div2-info {
+    border: 2px solid rgba(59, 75, 0, 0.655);
+    background-color: rgba(59, 75, 0, 0.655);
+    height: 250px;
+    background-image: url('https://media.istockphoto.com/id/1441693145/vector/golden-seamless-pattern-with-legal-advice-court-attorney-law-related-icons-vector.jpg?s=612x612&w=0&k=20&c=fcTwMgBM4x-vc5WHfugMFd4Azy2w0Kv6GKAN4e5sqYA=');
+    opacity: 0.7;
+    border-radius: 40px;
+
+    
+}
+
+.div2-info p {
+    color: black;
+    width: 70%;
+    font-weight: bold;
+    background-color: rgba(0, 49, 210, 0.379);
+    margin: 20px 180px;
+    border: 2px solid darkcyan;
+    border-radius: 15px;
+}
+
+img {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.imgg {
+    margin: 50px 0px;
+    z-index: 99;
+    height: 200px;
+    width: 300px;
+
+
+}
+
+.div2-info h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.img1 h1 {
+    margin-top: 33px;
+}
+
+.img-p{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgg{
+    width: 200px;
+}
+
+.imgdesign{ 
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+     margin: 10px 0px;
+ } 
+
+.external_div{
+
+    border: 2px solid red;
+    width: 200px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px 20px;
+    display: flex;
+    column-gap: 30px;
+    
+}
+.h1_event{
+    text-align: center;
+    margin: 15px 0px;
+    color: #000000;
+    
+}
+
+.register_FF{
+    border-radius: 5px;
+    background-color: rgba(54, 115, 255, 0.737);
+    height: 30px;
+    width: 200px;
+    margin: 10px 0px;
+
+}
+
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.internal_div h3{
+    text-align: center;
+}
+
+
+/* footer */
+.foot{
+    background-color: #5a4f109b;
+    height: 100px;
+    text-align: center;
+    color: bisque;
+    position: sticky;
+
+    
+    
+}
+
+.foot h3{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.foot .design{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    gap: 20px;
+    text-decoration: underline;
+
+}
+
+.socialimage img{
+    height: 15px;
+    width: 20px;
+    
+    margin: 0px 10px;
+    
+    
+}
+
+
+/* Table */
+table{
+    margin: 100px auto;
+    color: white;
+    line-height: 10px;
+    column-width: 5px;
+    align-items: center;
+    border-collapse: separate;
+    width: 80%;
+    height: 50%;
+    
+
+}
+
+table th{
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    
+}
+
+td{
+    line-height: 2;
+    text-align: center;
+}
+
+
+
