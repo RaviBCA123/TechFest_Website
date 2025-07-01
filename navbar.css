@@ -4,8 +4,8 @@
 }
 
 body {
-    background: #020024;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+   background: #1d1c24;
+background: linear-gradient(90deg, rgb(6, 0, 46) 0%, rgb(0, 0, 1) 35%, rgb(7, 39, 45) 100%);
 }
 
 .nav {
@@ -20,11 +20,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .right a {
     margin: 0px 20px;
+    text-decoration: none;
+    font-weight: bold;
     
+}
+
+.right a:hover{
+    color: orange;
 }
 
 #btn {
@@ -52,12 +59,12 @@ body {
 
 
 .div2-info {
-    border: 2px solid rgba(59, 75, 0, 0.655);
-    background-color: rgba(59, 75, 0, 0.655);
+    border: 2px solid red;
+    background-color: black;
     height: 250px;
-    background-image: url('https://media.istockphoto.com/id/1441693145/vector/golden-seamless-pattern-with-legal-advice-court-attorney-law-related-icons-vector.jpg?s=612x612&w=0&k=20&c=fcTwMgBM4x-vc5WHfugMFd4Azy2w0Kv6GKAN4e5sqYA=');
-    opacity: 0.7;
+  
     border-radius: 40px;
+
 
     
 }
@@ -66,10 +73,10 @@ body {
     color: black;
     width: 70%;
     font-weight: bold;
-    background-color: rgba(0, 49, 210, 0.379);
+    background-color: papayawhip;
     margin: 20px 180px;
-    border: 2px solid darkcyan;
-    border-radius: 15px;
+    padding: 20px;
+
 }
 
 img {
@@ -89,8 +96,8 @@ img {
 .div2-info h3 {
     text-align: center;
     margin-top: 10px;
-    color: rgb(0, 0, 0);
-    background-color: white;
+    color: yellowgreen;
+   
 }
 
 .img1 h1 {
@@ -125,9 +132,20 @@ img {
     
 }
 .h1_event{
-    text-align: center;
+    
     margin: 15px 0px;
-    color: #000000;
+    color: #ff0000;
+    background-color: white;
+    border: #ff0000;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
     
 }
 
@@ -202,7 +220,7 @@ table{
 }
 
 table th{
-    color: rgb(0, 0, 0);
+    color: yellow;
     line-height: 2;
     
 }
